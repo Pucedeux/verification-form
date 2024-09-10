@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérifier Votre Numéro de Téléphone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1em;
+            width: 300px;
+            max-width: 80%;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>VÉRIFIER VOTRE NUMÉRO DE TÉLÉPHONE</h1>
+    <img src="votre-image.jpg" alt="Image de vérification">
+    <form id="verificationForm">
+        <input type="text" id="phoneNumber" name="phoneNumber" placeholder="Numéro de téléphone" required>
+        <input type="text" id="name" name="name" placeholder="Nom" required>
+        <button type="submit">VÉRIFIER</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
